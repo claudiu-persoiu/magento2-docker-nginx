@@ -12,4 +12,4 @@ The following environment variables are used for Nginx configuration:
 
 - `PHP_HOST`: (default: `phpfpm`) The hostname of the PHP container.
 - `PHP_PORT`: (default: `9000`) The port of the PHP container.
-- `APP_MAGE_MODE`: (default: `default`) Set the appropriate MAGE_MODE. 
+- `APP_MAGE_MODE`: (default: `developer`) Set the appropriate MAGE_MODE. 

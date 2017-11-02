@@ -8,4 +8,6 @@ RUN mkdir -p /etc/nginx/ssl
 COPY entry.sh /usr/local/bin/
 RUN chmod a+x /usr/local/bin/entry.sh
 
+ENV APP_MAGE_MODE developer
+
 CMD ["/usr/local/bin/entry.sh"]

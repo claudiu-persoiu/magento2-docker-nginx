@@ -10,7 +10,7 @@ RUN chmod a+x /usr/local/bin/entry.sh
 
 ENV PHP_HOST phpfpm
 ENV PHP_PORT 9000
-ENV APP_MAGE_MODE developer
+ENV APP_MAGE_MODE default
 ENV APP_DOMAIN localhost
 
 CMD ["/usr/local/bin/entry.sh"]
